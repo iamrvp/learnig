@@ -9,7 +9,8 @@ console.log("Rushsikesh")
 let name = "rushikesh"
 let age ="26"
 let isLoggedIn = false
-let state;
+let state
+
 
 // number => 2 to power 53
 // bihint 
