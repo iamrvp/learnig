@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Contact Us - Terra_Rush Tours</title>
+</head>
+<body>
+
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo" href="index.html"><img src="img/logo.png" alt="Terra_Rush"></div>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="Tour.html">Our Tours</a></li>
+            <li> <a href="contact.html">Contact Us</a></li>
+            <li> <a href="blog.html">Blogs</a></li>
+        </ul>
+        <div class="rightnav v-class-resp">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <form action="http://localhost:3000/submit" method="post">
+         <section class="contact-form">
+               <h2>Get in Touch</h2>
+               <form action="#" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                 <label for="email">Your Email:</label>
+                   <input type="email" id="email" name="email" required>
+
+                  <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer class="background">
+    <p class="text-footer">
+    Copyright &copy; 2027 - www.terra_rush.com - All rights reserved.
+    </p>
+</footer>
+
+</body>
+</html>
